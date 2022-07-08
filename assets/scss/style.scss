@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: rgb(3, 180, 180);
+    padding: 0px 18px 0px 18px;
+}
+
+.navbar-nav{
+    font-size: 25px;
+}
+
+.nav-item a:hover{
+    font-size: 26px;
+    transition: 0.5s;
+}
+
+.backgroundTitulo{
+    background-color: rgb(149, 240, 74);
+    text-align: center;
+    padding: 7px 0px 7px 0px;
+}
+
+.titulo{
+    font-size: 40px;
+}
+
+.background_color{
+    background-color: rgb(66, 66, 66);
+    padding: 60px;
+}
+
+#carouselExampleIndicators{
+    border: 1px solid black;
+    box-shadow: 5px 5px 15px 5px #000000;
+    margin: 40px;
+    background-color: aliceblue;
+}
+
+.background_white{
+    border: 1px solid black;
+    box-shadow: 5px 5px 15px 5px #000000;
+    margin: 40px;
+    background-color: aliceblue;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.box img{
+    width: 370px;
+    margin: 15px;
+}
+
+.text{
+    margin: 15px;
+}
+
+footer{
+    background-color: rgb(3, 180, 180);
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+}
+
+.copyright div h4{
+    font-size: 20px;
+}
+
+.logo_box{
+    display: flex;
+    align-items: center;
+}
+
+.social_media_box{
+    display: flex;
+    align-items: center;
+}
+
+.socialMedia{
+    margin: 20px;
+    width: 60px;
+}
